@@ -8,26 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		D84E20991E26FB5E00C7D84C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84E20981E26FB5E00C7D84C /* AppDelegate.swift */; };
-		D84E209B1E26FB5E00C7D84C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D84E209A1E26FB5E00C7D84C /* GameScene.sks */; };
-		D84E209D1E26FB5E00C7D84C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D84E209C1E26FB5E00C7D84C /* Actions.sks */; };
 		D84E209F1E26FB5E00C7D84C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84E209E1E26FB5E00C7D84C /* GameScene.swift */; };
 		D84E20A11E26FB5E00C7D84C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84E20A01E26FB5E00C7D84C /* GameViewController.swift */; };
 		D84E20A41E26FB5E00C7D84C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D84E20A21E26FB5E00C7D84C /* Main.storyboard */; };
 		D84E20A61E26FB5E00C7D84C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D84E20A51E26FB5E00C7D84C /* Assets.xcassets */; };
 		D84E20A91E26FB5E00C7D84C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D84E20A71E26FB5E00C7D84C /* LaunchScreen.storyboard */; };
+		D84E20B11E2703AC00C7D84C /* ButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84E20B01E2703AC00C7D84C /* ButtonNode.swift */; };
+		D84E20B51E2703B700C7D84C /* Button-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = D84E20B21E2703B700C7D84C /* Button-normal.png */; };
+		D84E20B61E2703B700C7D84C /* Button-active.png in Resources */ = {isa = PBXBuildFile; fileRef = D84E20B31E2703B700C7D84C /* Button-active.png */; };
+		D84E20B71E2703B700C7D84C /* Button-disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = D84E20B41E2703B700C7D84C /* Button-disabled.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D84E20951E26FB5E00C7D84C /* Fight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D84E20981E26FB5E00C7D84C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D84E209A1E26FB5E00C7D84C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		D84E209C1E26FB5E00C7D84C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		D84E209E1E26FB5E00C7D84C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D84E20A01E26FB5E00C7D84C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D84E20A31E26FB5E00C7D84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D84E20A51E26FB5E00C7D84C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D84E20A81E26FB5E00C7D84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D84E20AA1E26FB5E00C7D84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D84E20B01E2703AC00C7D84C /* ButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonNode.swift; sourceTree = "<group>"; };
+		D84E20B21E2703B700C7D84C /* Button-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-normal.png"; sourceTree = "<group>"; };
+		D84E20B31E2703B700C7D84C /* Button-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-active.png"; sourceTree = "<group>"; };
+		D84E20B41E2703B700C7D84C /* Button-disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-disabled.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,9 @@
 			children = (
 				D84E20971E26FB5E00C7D84C /* Fight */,
 				D84E20961E26FB5E00C7D84C /* Products */,
+				D84E20B21E2703B700C7D84C /* Button-normal.png */,
+				D84E20B31E2703B700C7D84C /* Button-active.png */,
+				D84E20B41E2703B700C7D84C /* Button-disabled.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,10 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				D84E20981E26FB5E00C7D84C /* AppDelegate.swift */,
-				D84E209A1E26FB5E00C7D84C /* GameScene.sks */,
-				D84E209C1E26FB5E00C7D84C /* Actions.sks */,
 				D84E209E1E26FB5E00C7D84C /* GameScene.swift */,
 				D84E20A01E26FB5E00C7D84C /* GameViewController.swift */,
+				D84E20B01E2703AC00C7D84C /* ButtonNode.swift */,
 				D84E20A21E26FB5E00C7D84C /* Main.storyboard */,
 				D84E20A51E26FB5E00C7D84C /* Assets.xcassets */,
 				D84E20A71E26FB5E00C7D84C /* LaunchScreen.storyboard */,
@@ -134,10 +140,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D84E20A41E26FB5E00C7D84C /* Main.storyboard in Resources */,
-				D84E209B1E26FB5E00C7D84C /* GameScene.sks in Resources */,
+				D84E20B71E2703B700C7D84C /* Button-disabled.png in Resources */,
+				D84E20B61E2703B700C7D84C /* Button-active.png in Resources */,
 				D84E20A61E26FB5E00C7D84C /* Assets.xcassets in Resources */,
+				D84E20B51E2703B700C7D84C /* Button-normal.png in Resources */,
 				D84E20A91E26FB5E00C7D84C /* LaunchScreen.storyboard in Resources */,
-				D84E209D1E26FB5E00C7D84C /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D84E209F1E26FB5E00C7D84C /* GameScene.swift in Sources */,
+				D84E20B11E2703AC00C7D84C /* ButtonNode.swift in Sources */,
 				D84E20A11E26FB5E00C7D84C /* GameViewController.swift in Sources */,
 				D84E20991E26FB5E00C7D84C /* AppDelegate.swift in Sources */,
 			);
